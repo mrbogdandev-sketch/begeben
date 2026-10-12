@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/png" sizes="139x139" href="assets/favicon.png">
+  <meta name="description" content="Богдан, 13 лет. Создатель социальной сети ЧеКак.">
+  <title>бэгэбэн studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header" id="top">
+      <a class="logo" href="#top" aria-label="На главную"><img src="assets/studio-logo.svg" alt="Логотип"></a>
+      <nav><a href="#about">Обо мне</a><a href="#projects">Проект</a><a href="#contact">Связь</a></nav>
+    </header>
+
+    <main>
+      <section class="intro" id="about">
+        <div class="intro-photo"><img src="assets/me.jpg" alt="Богдан"></div>
+        <div><h1>Привет! Я Богдан</h1><p>Мне 13 лет. Я разрабатываю свою социальную сеть — ЧеКак. Это мой главный проект сейчас. В будущем хочу создавать и другие интересные вещи.</p></div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2>Мой проект</h2>
+        <article class="project">
+          <span class="new-burst" aria-label="Новое">NEW</span>
+          <a class="banner-link" href="https://chekak.xyz" target="_blank" rel="noopener"><img class="banner" src="assets/chekak-banner.png" alt="ЧеКак — социальная сеть"></a>
+          <div class="project-info"><div><h3>ЧеКак</h3><p>Моя социальная сеть</p></div><div class="download-links"><a id="android-link" href="downloads/chekak-android.apk" download="chekak-android.apk">Скачать для Android</a><button id="ios-link" type="button">Скачать для iPhone</button><a href="https://chekak.xyz" target="_blank" rel="noopener">Перейти на сайт</a></div></div>
+        </article>
+      </section>
+
+      <section class="photo-section" aria-label="Фотография Богдана"><img src="assets/me2.jpg" alt="Богдан"><img class="python-book" src="assets/python.jpg" alt="Книга о Python"></section>
+
+      <section class="contact" id="contact"><h2>Связь</h2><ul><li>Telegram: <a href="https://t.me/bgd_user">@bgd_user</a></li><li>Телефон: <a href="tel:+375296614979">+375 29 661 49 79</a></li><li>Почта: <a href="mailto:mrbogdandev@gmail.com">mrbogdandev@gmail.com</a></li></ul></section>
+    </main>
+
+    <footer><span>бэгэбэн studio · Богдан · 2026</span><a href="#top">Наверх ↑</a></footer>
+  </div>
+
+  <dialog id="ios-dialog"><button class="close" id="close-dialog" aria-label="Закрыть">×</button><h2>Приложения для iPhone пока нет</h2><p>Открой сайт в Safari, нажми «Поделиться», затем выбери «На экран Домой». Так ЧеКак будет доступен с отдельной иконки.</p><button class="ok" id="ok-dialog">Понятно</button></dialog>
+</body>
+</html>
